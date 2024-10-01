@@ -5,8 +5,15 @@
 :root {
   --background: #F7F8FA;
   --foreground: #232323;
-  --primary: #1c654c;
+  --primary: #f69228;
   --border: #eaeef3;
+  --link: #727272;
+  --bgColor: #ffffff;
+  --bgCard: #FCFCFC;
+
+  /* fonts */
+  --font-dm-sans: "DM Sans", sans-serif;
+  --font-roboto-slab: "Roboto Slab", serif;
 }
 
 /* @media (prefers-color-scheme: dark) {
@@ -18,11 +25,20 @@
 
 body {
   color: var(--foreground);
-  background: var(--background);
+  background: var(--bgColor);
+  font-family: var(--font-dm-sans);
 }
 
 @layer utilities {
   .text-balance {
     text-wrap: balance;
   }
+}
+
+.swiper-wrapper {
+  width: 100%;
+  height: max-content;
+  -webkit-transition-timing-function: linear;
+  transition-timing-function: linear;
+  position: relative;
 }

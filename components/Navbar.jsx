@@ -1,4 +1,4 @@
-'use client';
+"use client";
 
 import Image from "next/image";
 import Link from "next/link";
@@ -22,17 +22,17 @@ const Navbar = () => {
       }
     };
 
-    document.addEventListener('mousedown', handleClickOutside);
+    document.addEventListener("mousedown", handleClickOutside);
 
     return () => {
-      document.removeEventListener('mousedown', handleClickOutside);
+      document.removeEventListener("mousedown", handleClickOutside);
     };
   }, []);
 
   return (
-    <header className="bg-white border border-b-border">
+    <header className="border border-b-border">
       <div className="mx-auto px-4 md:px-6 lg:px-8">
-        <div className="flex h-16 items-center justify-between">
+        <div className="flex h-20 items-center justify-between">
           {/* Hamburger Icon */ }
           <div className="block lg:hidden">
             <button
@@ -68,33 +68,33 @@ const Navbar = () => {
           </div>
 
           {/* Desktop Menu */ }
-          <div className="hidden lg:flex lg:flex-1 lg:justify-end lg:gap-12">
+          <div className="hidden lg:flex lg:flex-1 lg:justify-end lg:gap-12 tracking-wide">
             <nav aria-label="Global">
               <ul className="flex items-center gap-16 text-sm font-bold">
                 <li>
-                  <Link className={ `transition ${pathname === '/' ? 'text-primary' : ''}` } href="/">Home</Link>
+                  <Link className={ `transition ${pathname === "/" ? "text-primary" : ""}` } href="/">Home</Link>
                 </li>
                 <li>
-                  <Link className={ `transition ${pathname === '/about' ? 'text-primary' : ''}` } href="/about">About</Link>
+                  <Link className={ `transition ${pathname === "/about" ? "text-primary" : ""}` } href="/about">About</Link>
                 </li>
                 <li>
-                  <Link className={ `transition ${pathname === '/bdtours' ? 'text-primary' : ''}` } href="/bdtours">Bangladesh Tours</Link>
+                  <Link className={ `transition ${pathname === "/bdtours" ? "text-primary" : ""}` } href="/bdtours">Bangladesh Tours</Link>
                 </li>
                 <li>
-                  <Link className={ `transition ${pathname === '/contact' ? 'text-primary' : ''}` } href="/contact">Contact</Link>
+                  <Link className={ `transition ${pathname === "/contact" ? "text-primary" : ""}` } href="/contact">Contact</Link>
                 </li>
               </ul>
             </nav>
           </div>
 
-          <div className="lg:w-1/5"></div>
+          <div className="lg:w-[15%]"></div>
         </div>
       </div>
 
       {/* Mobile Sidebar Menu */ }
       <div
         ref={ menuRef }
-        className={ `fixed inset-y-0 left-0 z-50 w-full max-w-80 bg-white shadow-lg transition-transform transform ${isOpen ? 'translate-x-0' : '-translate-x-full'
+        className={ `fixed inset-y-0 left-0 z-50 w-full max-w-80 bg-white shadow-lg transition-transform transform ${isOpen ? "translate-x-0" : "-translate-x-full"
           } lg:hidden` }
       >
         <div className="px-4 flex bg-background h-12">
@@ -115,19 +115,19 @@ const Navbar = () => {
           </button>
         </div>
 
-        <nav className="px-6 py-4 uppercase">
-          <ul className="text-sm font-bold">
+        <nav className="px-6 uppercase">
+          <ul className="text-sm font-bold tracking-widest">
             <li className="py-4 border-b border-border">
-              <Link className={ `transition ${pathname === '/' ? 'text-primary' : ''}` } href="/">Home</Link>
+              <Link className={ `transition ${pathname === "/" ? "text-primary" : ""}` } href="/">Home</Link>
             </li>
             <li className="py-4 border-b border-border">
-              <Link className={ `transition ${pathname === '/about' ? 'text-primary' : ''}` } href="/about">About</Link>
+              <Link className={ `transition ${pathname === "/about" ? "text-primary" : ""}` } href="/about">About</Link>
             </li>
             <li className="py-4 border-b border-border">
-              <Link className={ `transition ${pathname === '/bdtours' ? 'text-primary' : ''}` } href="/bdtours">Bangladesh Tours</Link>
+              <Link className={ `transition ${pathname === "/bdtours" ? "text-primary" : ""}` } href="/bdtours">Bangladesh Tours</Link>
             </li>
             <li className="py-4 border-b border-border">
-              <Link className={ `transition ${pathname === '/contact' ? 'text-primary' : ''}` } href="/contact">Contact</Link>
+              <Link className={ `transition ${pathname === "/contact" ? "text-primary" : ""}` } href="/contact">Contact</Link>
             </li>
           </ul>
         </nav>
