@@ -33,7 +33,7 @@ const TourCard = ({ tour }) => {
   };
 
   return (
-    <div className="rounded-lg border border-border overflow-hidden relative">
+    <div className="rounded-lg border border-border overflow-hidden relative mx-2">
       {/* Heart Icon */ }
       <div className="absolute top-5 right-3 z-10 text-bgColor">
         <FaHeart size={ 24 } />

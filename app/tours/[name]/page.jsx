@@ -68,7 +68,7 @@ const TourDetails = () => {
         <Details tour={ tour } />
 
         {/* Sidebar */ }
-        <aside className="space-y-8 col-span-4">
+        <aside className="space-y-8 col-span-4 lg:sticky lg:top-0 md:h-screen mb-0 md:mb-8">
           <Book />
         </aside>
       </div>

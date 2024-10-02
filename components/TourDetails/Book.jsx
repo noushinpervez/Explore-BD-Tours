@@ -1,7 +1,7 @@
 const Book = ({tour}) => {
   return (
     <div className="ml-6">
-      <div className="rounded-3xl p-8 shadow-lg lg:p-6 sticky">
+      <div className="rounded-3xl p-8 shadow-lg lg:p-6">
         <form action="#" className="space-y-4">
           <div className="grid grid-cols-1 gap-4 sm:grid-cols-2">
             <div>
