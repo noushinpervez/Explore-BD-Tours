@@ -1,6 +1,6 @@
 export const GET = async (request) => {
   try {
-    const res = await fetch(`${process.env.NEXT_PUBLIC_DOMAIN || 'http://localhost:3000'}/tours.json`, {
+    const res = await fetch(`${process.env.NEXT_PUBLIC_DOMAIN || 'https://explore-bd-tours.vercel.app'}/tours.json`, {
       headers: {
         'Cache-Control': 'no-cache',
       },

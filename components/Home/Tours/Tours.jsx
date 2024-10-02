@@ -3,7 +3,7 @@ import TourCard from './TourCard';
 const Tours = async () => {
   const fetchTours = async () => {
     try {
-      const res = await fetch(`${process.env.NEXT_PUBLIC_DOMAIN || 'http://localhost:3000'}/api/tours`, {
+      const res = await fetch(`${process.env.NEXT_PUBLIC_DOMAIN || 'https://explore-bd-tours.vercel.app'}/api/tours`, {
         headers: {
           'Cache-Control': 'no-cache',
         },
