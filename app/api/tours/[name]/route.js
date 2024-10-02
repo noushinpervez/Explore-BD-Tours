@@ -2,7 +2,7 @@
 export const GET = async (request, { params }) => {
   const { name } = params; // Destructure the name parameter from params
   try {
-    const res = await fetch("http://localhost:3000/tours.json", {
+    const res = await fetch("https://explore-bd-tours.vercel.app/tours.json", {
       headers: {
         "Cache-Control": "no-cache",
       },

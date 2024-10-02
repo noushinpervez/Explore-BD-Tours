@@ -24,7 +24,7 @@ const TourDetails = () => {
       }
 
       try {
-        const res = await fetch(`http://localhost:3000/api/tours/${name}`);
+        const res = await fetch(`https://explore-bd-tours.vercel.app/api/tours/${name}`);
 
         if (!res.ok) {
           throw new Error("Tour not found"); // Handle error when tour is not found
