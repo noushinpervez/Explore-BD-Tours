@@ -1,0 +1,173 @@
+[
+  {
+    "id": 1,
+    "name": "Sundarbans Adventure Tour",
+    "duration": "3 days, 2 nights",
+    "tourType": "Nature & Wildlife",
+    "groupSize": "Up to 10 people",
+    "languages": [
+      "English",
+      "Bengali"
+    ],
+    "reviews": 158,
+    "stars": 4.8,
+    "bdt": 5000,
+    "aboutTour": "Explore the largest mangrove forest in the world, home to the Royal Bengal Tiger. This tour will take you deep into the heart of the Sundarbans, where you will witness breathtaking wildlife, serene rivers, and stunning landscapes.",
+    "highlights": [
+      "Boat ride through the Sundarbans rivers",
+      "Watch wildlife including crocodiles, deer, and birds",
+      "Explore local villages and culture",
+      "Visit the famous Kotka Beach"
+    ],
+    "included": [
+      "Guided boat tour",
+      "All meals during the trip",
+      "Accommodation in eco-friendly lodges",
+      "Entry fees to the Sundarbans"
+    ],
+    "excluded": [
+      "Personal expenses",
+      "Travel insurance",
+      "Tips for guides and staff",
+      "Drinks and snacks"
+    ],
+    "itinerary": [
+      {
+        "day": 1,
+        "description": "Depart from Khulna early morning and head to Sundarbans by boat. Visit the wildlife sanctuary and enjoy a boat safari through the mangroves."
+      },
+      {
+        "day": 2,
+        "description": "Full day wildlife exploration with a visit to Kotka Beach, a popular spot for wildlife sightings and stunning views."
+      },
+      {
+        "day": 3,
+        "description": "Morning nature walk, followed by a village visit. Return to Khulna by boat in the afternoon."
+      }
+    ],
+    "location": {
+      "city": "Khulna",
+      "coordinates": {
+        "latitude": 22.8156,
+        "longitude": 89.5403
+      }
+    },
+    "images": [
+      "https://images.unsplash.com/photo-1540018177157-957400dbd08a?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "https://images.unsplash.com/photo-1549300461-11c5b94e8855?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "https://images.unsplash.com/photo-1607441078533-77ba814b1e5d?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "https://images.unsplash.com/photo-1551615218-33580b595050?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Cox’s Bazar Beach Tour",
+    "duration": "2 days, 1 night",
+    "tourType": "Beach & Relaxation",
+    "groupSize": "Up to 15 people",
+    "languages": [
+      "English",
+      "Bengali"
+    ],
+    "reviews": 220,
+    "stars": 4.5,
+    "bdt": 7000,
+    "aboutTour": "Cox’s Bazar, the longest natural sea beach in the world, is a perfect getaway for those looking to relax by the sea. Enjoy breathtaking sunsets, seafood delicacies, and leisurely walks along the beach.",
+    "highlights": [
+      "Relax on the world’s longest beach",
+      "Visit Himchari Waterfall and Inani Beach",
+      "Enjoy fresh seafood at local restaurants",
+      "Witness a stunning sunset over the Bay of Bengal"
+    ],
+    "included": [
+      "Accommodation at a 3-star hotel",
+      "Breakfast and dinner",
+      "Guided tours to Himchari and Inani Beach",
+      "Private transport"
+    ],
+    "excluded": [
+      "Lunch",
+      "Personal expenses",
+      "Water sports activities",
+      "Tips for guides"
+    ],
+    "itinerary": [
+      {
+        "day": 1,
+        "description": "Arrive at Cox’s Bazar, check into hotel, and enjoy a beach walk in the afternoon. Evening seafood dinner by the beach."
+      },
+      {
+        "day": 2,
+        "description": "After breakfast, visit Himchari Waterfall and Inani Beach. Depart for Dhaka in the evening."
+      }
+    ],
+    "location": {
+      "city": "Cox's Bazar",
+      "coordinates": {
+        "latitude": 21.4272,
+        "longitude": 92.0058
+      }
+    },
+    "images": [
+      "https://images.unsplash.com/photo-1626239889138-a7e4f971059e?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "https://images.unsplash.com/photo-1587222318667-31212ce2828d?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "https://images.unsplash.com/photo-1720180434916-f6702ba9325f?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "https://images.unsplash.com/photo-1694350525338-d0e83ba3a171?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Srimangal Tea Garden Tour",
+    "duration": "2 days, 1 night",
+    "tourType": "Cultural & Heritage",
+    "groupSize": "Up to 12 people",
+    "languages": [
+      "English",
+      "Bengali"
+    ],
+    "reviews": 140,
+    "stars": 4.7,
+    "bdt": 7000,
+    "aboutTour": "Explore the lush green tea estates of Srimangal, known as the tea capital of Bangladesh. This tour offers a perfect combination of nature and culture, where you can enjoy the scenic beauty of rolling tea gardens and taste the famous seven-layer tea.",
+    "highlights": [
+      "Walk through lush tea gardens",
+      "Taste the iconic seven-layer tea",
+      "Visit Lawachara National Park",
+      "Experience the culture of the Khasi ethnic group"
+    ],
+    "included": [
+      "Tea estate tour with a guide",
+      "Accommodation in a tea resort",
+      "Breakfast and lunch",
+      "Transport to and from Srimangal"
+    ],
+    "excluded": [
+      "Dinner",
+      "Personal expenses",
+      "Additional snacks and drinks",
+      "Tips for the guide"
+    ],
+    "itinerary": [
+      {
+        "day": 1,
+        "description": "Arrive in Srimangal, visit a local tea estate, and enjoy a seven-layer tea. Evening visit to Lawachara National Park."
+      },
+      {
+        "day": 2,
+        "description": "Morning nature walk, followed by a visit to a local Khasi village. Depart for Dhaka in the afternoon."
+      }
+    ],
+    "location": {
+      "city": "Srimangal",
+      "coordinates": {
+        "latitude": 24.3065,
+        "longitude": 91.7296
+      }
+    },
+    "images": [
+      "https://images.unsplash.com/photo-1702898539404-14364aca16ad?q=80&w=1900&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "https://images.unsplash.com/photo-1724257288409-dd6e1de5c20d?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "https://images.unsplash.com/photo-1677950275757-0460cab1df08?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    ]
+  }
+]
