@@ -186,7 +186,7 @@ const TourDetails = () => {
           {/* Divider */ }
           <hr className="border-1 border-border my-10 w-full" />
           {/* Location */ }
-          <h2 className="mb-2 font-bold mt-8 text-3xl">Tour's Location</h2>
+          <h2 className="mb-2 font-bold mt-8 text-3xl">Tour&#39;s Location</h2>
           <TourMap location={ tour.location } />
 
           {/* Reviews */ }
