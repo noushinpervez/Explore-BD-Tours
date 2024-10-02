@@ -4,9 +4,10 @@
 
 :root {
   --background: #F7F8FA;
-  --foreground: #232323;
+  --foreground: #1a2b48;
   --primary: #f69228;
-  --border: #eaeef3;
+  --secondary: #f79c3b;
+  --border: #dfdfdf;
   --link: #727272;
   --bgColor: #ffffff;
   --bgCard: #FCFCFC;

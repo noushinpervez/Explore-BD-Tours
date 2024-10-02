@@ -58,7 +58,7 @@ const Navbar = () => {
               <span className="sr-only">Home</span>
               <Image
                 className="w-auto h-12"
-                src="/logo_v2.png"
+                src="/images/logo_v2.png"
                 alt="Logo"
                 sizes="100vw"
                 width={ 0 }

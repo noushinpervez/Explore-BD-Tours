@@ -55,10 +55,10 @@ const Footer = () => {
         </section>
 
         {/* Divider line between the sections and footer bottom */ }
-        <hr className="border border-link opacity-10 my-6 w-full" />
+        <hr className="border-1 border-border my-6 w-full" />
 
         {/* Footer bottom section */ }
-        <section className="mb-4 flex flex-col md:flex-row items-start lg:justify-between gap-2.5">
+        <section className="pb-4 flex flex-col md:flex-row items-start lg:justify-between gap-2.5">
           <p>&copy; Explore BD Tours 2024 | Developed By Noushin Pervez.</p>
           <Image
             src="https://modtour.travelerwp.com/wp-content/uploads/2022/04/Frame-3182.svg"

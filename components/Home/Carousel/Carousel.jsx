@@ -8,17 +8,15 @@ import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
 import "swiper/css/effect-fade";
+import Content from "./Content";
 
 const Carousel = () => {
   return (
     <div className="w-full relative md:h-[60vh] h-[75vh]">
       {/* Content */ }
-      <div className="absolute inset-0 z-10 flex flex-col justify-center items-center text-center text-white px-4">
-        <h2 className="text-6xl font-semibold">Love where you&#39;re going</h2>
-        <p className="mt-6 text-xl font-bold">Book incredible things to do around the world.</p>
-      </div>
+      <Content />
 
-      {/* Slider */}
+      {/* Slider */ }
       <Swiper
         modules={ [Parallax, Autoplay, Navigation, EffectFade] }
         speed={ 2000 }
