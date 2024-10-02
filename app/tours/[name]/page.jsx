@@ -69,7 +69,7 @@ const TourDetails = () => {
 
         {/* Sidebar */ }
         <aside className="space-y-8 col-span-4">
-          <Book tour={ tour } />
+          <Book />
         </aside>
       </div>
     </section>
