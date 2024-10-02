@@ -12,7 +12,7 @@ import Content from "./Content";
 
 const Carousel = () => {
   return (
-    <div className="w-full relative md:h-[60vh] h-[75vh]">
+    <section className="w-full relative md:h-[60vh] h-[75vh]">
       {/* Content */ }
       <Content />
 
@@ -74,7 +74,7 @@ const Carousel = () => {
           </div>
         </SwiperSlide>
       </Swiper>
-    </div>
+    </section>
   );
 };
 

@@ -20,8 +20,8 @@ export const metadata = {
   description: "Explore BD Tours and find the best tours in Bangladesh.",
   keywords: ["BD tours", "Bangladesh", "travel", "vacation"],
   icons: {
-    icon: '/images/logo.png',
-    shortcut: '/images/logo.png',
+    icon: "/images/logo.png",
+    shortcut: "/images/logo.png",
   },
 };
 
