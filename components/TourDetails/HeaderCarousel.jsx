@@ -30,7 +30,6 @@ const HeaderCarousel = ({ images }) => {
           pagination={ {
             type: "fraction",
           } }
-          initialSlide={ 1 }
           breakpoints={ {
             // When the screen width is >= 320px (mobile)
             320: {
