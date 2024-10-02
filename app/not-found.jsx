@@ -15,7 +15,7 @@ const NotFound = () => {
         <div className="w-full lg:w-1/2">
           <p className="text-sm font-medium text-primary">404 error</p>
           <h1 className="mt-3 text-2xl font-semibold md:text-3xl">Page not found</h1>
-          <p className="mt-4 text-link">Sorry, the page you are looking for doesn't exist.</p>
+          <p className="mt-4 text-link">Sorry, the page you are looking for doesn&#39;t exist.</p>
 
           <div className="flex items-center mt-6 gap-x-3">
             {/* Go Back Button */ }
