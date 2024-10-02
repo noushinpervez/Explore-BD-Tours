@@ -11,7 +11,7 @@
     ],
     "reviews": 158,
     "stars": 4.8,
-    "bdt": 5000,
+    "price": 5000,
     "aboutTour": "Explore the largest mangrove forest in the world, home to the Royal Bengal Tiger. This tour will take you deep into the heart of the Sundarbans, where you will witness breathtaking wildlife, serene rivers, and stunning landscapes.",
     "highlights": [
       "Boat ride through the Sundarbans rivers",
@@ -71,7 +71,7 @@
     ],
     "reviews": 220,
     "stars": 4.5,
-    "bdt": 7000,
+    "price": 7000,
     "aboutTour": "Cox’s Bazar, the longest natural sea beach in the world, is a perfect getaway for those looking to relax by the sea. Enjoy breathtaking sunsets, seafood delicacies, and leisurely walks along the beach.",
     "highlights": [
       "Relax on the world’s longest beach",
@@ -127,7 +127,7 @@
     ],
     "reviews": 140,
     "stars": 4.7,
-    "bdt": 7000,
+    "price": 7000,
     "aboutTour": "Explore the lush green tea estates of Srimangal, known as the tea capital of Bangladesh. This tour offers a perfect combination of nature and culture, where you can enjoy the scenic beauty of rolling tea gardens and taste the famous seven-layer tea.",
     "highlights": [
       "Walk through lush tea gardens",
@@ -168,6 +168,290 @@
       "https://images.unsplash.com/photo-1702898539404-14364aca16ad?q=80&w=1900&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       "https://images.unsplash.com/photo-1724257288409-dd6e1de5c20d?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       "https://images.unsplash.com/photo-1677950275757-0460cab1df08?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Bandarban Hill Trekking Tour",
+    "duration": "4 days, 3 nights",
+    "tourType": "Adventure & Trekking",
+    "groupSize": "Up to 8 people",
+    "languages": [
+      "English",
+      "Bengali"
+    ],
+    "reviews": 112,
+    "stars": 4.9,
+    "price": 8500,
+    "aboutTour": "Immerse yourself in the natural beauty of the Chittagong Hill Tracts as you trek through Bandarban’s rugged hills, waterfalls, and indigenous villages. This tour is ideal for adventure seekers looking to explore off-the-beaten-path destinations.",
+    "highlights": [
+      "Trek to Nilgiri Hills and Nafakhum Waterfall",
+      "Visit indigenous Marma and Chakma villages",
+      "Enjoy scenic boat rides on the Sangu River",
+      "Watch the sunrise from Tiger Hill"
+    ],
+    "included": [
+      "Experienced trekking guide",
+      "Accommodation in eco-lodges",
+      "All meals during the trek",
+      "Permits and entry fees"
+    ],
+    "excluded": [
+      "Personal expenses",
+      "Travel insurance",
+      "Trekking gear",
+      "Tips for guides"
+    ],
+    "itinerary": [
+      {
+        "day": 1,
+        "description": "Arrival in Bandarban, visit local Marma villages and explore the surroundings. Overnight stay in eco-lodges."
+      },
+      {
+        "day": 2,
+        "description": "Full-day trek to Nilgiri Hills, enjoy stunning views and explore nearby villages."
+      },
+      {
+        "day": 3,
+        "description": "Trek to Nafakhum Waterfall, enjoy lunch by the waterfall and return to the lodge in the evening."
+      },
+      {
+        "day": 4,
+        "description": "Early morning trek to Tiger Hill to watch the sunrise, followed by a visit to the Sangu River. Depart for Dhaka."
+      }
+    ],
+    "location": {
+      "city": "Bandarban",
+      "coordinates": {
+        "latitude": 22.1930,
+        "longitude": 92.2180
+      }
+    },
+    "images": [
+      "https://images.unsplash.com/photo-1715922808700-f707baae4bb5?q=80&w=1878&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "https://images.unsplash.com/photo-1633450417381-e5fee241e4e9?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "https://images.unsplash.com/photo-1578599133584-d632fdcaa733?q=80&w=2038&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "https://images.unsplash.com/photo-1624485871361-65454b13edfa?q=80&w=2058&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    ]
+  },
+  {
+    "id": 5,
+    "name": "Dhaka Historical Landmarks Tour",
+    "duration": "1 day",
+    "tourType": "History & Culture",
+    "groupSize": "Up to 20 people",
+    "languages": [
+      "English",
+      "Bengali"
+    ],
+    "reviews": 180,
+    "stars": 4.6,
+    "price": 3000,
+    "aboutTour": "Discover the rich history of Dhaka, the capital of Bangladesh, on a full-day tour that covers its most famous landmarks and hidden gems. From Mughal architecture to modern cultural landmarks, this tour offers a perfect blend of history, culture, and city life.",
+    "highlights": [
+      "Visit Lalbagh Fort and Ahsan Manzil",
+      "Explore the Dhakeshwari Temple and Armenian Church",
+      "Rickshaw ride through Old Dhaka",
+      "Cruise on the Buriganga River"
+    ],
+    "included": [
+      "Guided city tour",
+      "Entry fees to historical sites",
+      "Lunch at a local restaurant",
+      "Private transport"
+    ],
+    "excluded": [
+      "Personal expenses",
+      "Tips for the guide",
+      "Additional snacks and drinks",
+      "Souvenirs"
+    ],
+    "itinerary": [
+      {
+        "day": 1,
+        "description": "Begin the day with a visit to Lalbagh Fort, followed by a tour of Ahsan Manzil and the bustling streets of Old Dhaka. After lunch, explore Dhakeshwari Temple and the Armenian Church before ending the day with a river cruise on the Buriganga."
+      }
+    ],
+    "location": {
+      "city": "Dhaka",
+      "coordinates": {
+        "latitude": 23.8103,
+        "longitude": 90.4125
+      }
+    },
+    "images": [
+      "https://images.unsplash.com/photo-1692599338360-2ed390c060d9?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "https://images.unsplash.com/photo-1642752970033-dcf85e55cc7c?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "https://images.unsplash.com/photo-1694343906708-e0d2306b5802?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "https://images.unsplash.com/photo-1604993497451-eed6eb271a9c?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    ]
+  },
+  {
+    "id": 6,
+    "name": "Rangamati Lake Tour",
+    "duration": "3 days, 2 nights",
+    "tourType": "Nature & Adventure",
+    "groupSize": "Up to 12 people",
+    "languages": [
+      "English",
+      "Bengali"
+    ],
+    "reviews": 135,
+    "stars": 4.7,
+    "price": 6000,
+    "aboutTour": "Explore the peaceful beauty of Kaptai Lake and the surrounding hills of Rangamati. Known for its serene waters, tribal culture, and lush landscapes, this tour offers a perfect escape into nature and local culture.",
+    "highlights": [
+      "Boat ride on Kaptai Lake",
+      "Visit Chakma and Tripura villages",
+      "Explore Buddhist temples and tribal markets",
+      "Hiking through scenic forest trails"
+    ],
+    "included": [
+      "Boat tours on Kaptai Lake",
+      "Accommodation in lake-view cottages",
+      "All meals during the trip",
+      "Private transport to Rangamati"
+    ],
+    "excluded": [
+      "Personal expenses",
+      "Travel insurance",
+      "Tips for guides and boat crew",
+      "Additional activities (e.g., fishing)"
+    ],
+    "itinerary": [
+      {
+        "day": 1,
+        "description": "Arrive in Rangamati and embark on a scenic boat ride on Kaptai Lake. Visit local tribal villages and learn about their culture."
+      },
+      {
+        "day": 2,
+        "description": "Full day of exploration with a visit to tribal markets, local temples, and a hike through the forest to a scenic viewpoint."
+      },
+      {
+        "day": 3,
+        "description": "Morning boat ride, followed by a visit to local handicraft markets. Return to Dhaka in the evening."
+      }
+    ],
+    "location": {
+      "city": "Rangamati",
+      "coordinates": {
+        "latitude": 22.6430,
+        "longitude": 92.1986
+      }
+    },
+    "images": [
+      "https://images.unsplash.com/photo-1562793171-b7fa2e3369d8?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "https://images.unsplash.com/photo-1589890579737-72f39220f255?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "https://images.unsplash.com/photo-1645985926275-d2184d7c2d5c?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    ]
+  },
+  {
+    "id": 7,
+    "name": "Khulna City Cultural Tour",
+    "duration": "1 day",
+    "tourType": "Culture & History",
+    "groupSize": "Up to 15 people",
+    "languages": [
+      "English",
+      "Bengali"
+    ],
+    "reviews": 75,
+    "stars": 4.4,
+    "price": 2500,
+    "aboutTour": "Experience the vibrant culture of Khulna, known for its rich history and diverse communities. This tour takes you through historic sites, local markets, and cultural landmarks.",
+    "highlights": [
+      "Visit Sixty Dome Mosque",
+      "Explore the local fish market",
+      "Walk through the ancient ruins of Bagerhat",
+      "Taste traditional Khulna cuisine"
+    ],
+    "included": [
+      "Guided city tour",
+      "Entry fees to sites",
+      "Lunch at a local restaurant",
+      "Private transport"
+    ],
+    "excluded": [
+      "Personal expenses",
+      "Tips for the guide",
+      "Additional snacks and drinks"
+    ],
+    "itinerary": [
+      {
+        "day": 1,
+        "description": "Start your day with a visit to the Sixty Dome Mosque, followed by exploring the vibrant local fish market. Enjoy lunch featuring traditional Khulna cuisine before visiting the ancient ruins of Bagerhat."
+      }
+    ],
+    "location": {
+      "city": "Khulna",
+      "coordinates": {
+        "latitude": 22.8456,
+        "longitude": 89.5403
+      }
+    },
+    "images": [
+      "https://images.unsplash.com/photo-1589637927270-c9814a2c05b4?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "https://images.unsplash.com/photo-1549474222-2483ffc5855d?q=80&w=1892&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "https://images.unsplash.com/photo-1657061681321-a233ba9942a3?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    ]
+  },
+  {
+    "id": 8,
+    "name": "Sundarbans Mangrove Forest Tour",
+    "duration": "3 days, 2 nights",
+    "tourType": "Nature & Wildlife",
+    "groupSize": "Up to 10 people",
+    "languages": [
+      "English",
+      "Bengali"
+    ],
+    "reviews": 210,
+    "stars": 4.8,
+    "price": 12000,
+    "aboutTour": "Experience the unique ecosystem of the Sundarbans, the largest mangrove forest in the world and a UNESCO World Heritage Site. This tour is ideal for wildlife enthusiasts and nature lovers.",
+    "highlights": [
+      "Wildlife spotting including Bengal tigers",
+      "Boat safari through the mangrove forests",
+      "Visit to local fishing villages",
+      "Explore the rich biodiversity of the area"
+    ],
+    "included": [
+      "Boat transportation within the Sundarbans",
+      "Accommodation on a houseboat",
+      "All meals during the tour",
+      "Experienced local guides"
+    ],
+    "excluded": [
+      "Personal expenses",
+      "Travel insurance",
+      "Tips for guides and crew",
+      "Additional activities (e.g., fishing)"
+    ],
+    "itinerary": [
+      {
+        "day": 1,
+        "description": "Arrive in Khulna, transfer to the boat and begin your journey into the Sundarbans. Enjoy a boat safari and spot wildlife."
+      },
+      {
+        "day": 2,
+        "description": "Full-day exploration of the Sundarbans, visiting various islands, and fishing villages. Enjoy the scenery and biodiversity."
+      },
+      {
+        "day": 3,
+        "description": "Morning boat ride for wildlife spotting before heading back to Khulna. Depart for Dhaka in the evening."
+      }
+    ],
+    "location": {
+      "city": "Sundarbans",
+      "coordinates": {
+        "latitude": 21.9497,
+        "longitude": 89.1833
+      }
+    },
+    "images": [
+      "https://images.unsplash.com/photo-1704821708356-c313bbd2e0ad?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "https://images.unsplash.com/photo-1674236921249-31fb8e22e1c5?q=80&w=1866&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "https://images.unsplash.com/photo-1706459671583-b7030917a7bc?q=80&w=2036&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
     ]
   }
 ]
