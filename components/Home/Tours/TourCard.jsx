@@ -71,7 +71,7 @@ const TourCard = ({ tour }) => {
         { renderStars() }
 
         {/* Duration and Price section */ }
-        <div className="flex items-center justify-between pb-4">
+        <div className="flex items-center justify-between pb-4 text-sm">
           <p className="flex items-center gap-1.5">
             <FaRegClock className="text-link" />
             <span>{ tour.duration }</span>
