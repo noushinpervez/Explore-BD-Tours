@@ -1,0 +1,47 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #F7F8FA;
+  --foreground: #1a2b48;
+  --primary: #f69228;
+  --secondary: #f79c3b;
+  --border: #dfdfdf;
+  --link: #727272;
+  --bgColor: #ffffff;
+  --bgCard: #FCFCFC;
+
+  /* fonts */
+  --font-dm-sans: "DM Sans", sans-serif;
+  --font-roboto-slab: "Roboto Slab", serif;
+}
+
+/* @media (prefers-color-scheme: dark) {
+  :root {
+    --background: #060709;
+    --foreground: #dbdbdb;
+  }
+} */
+
+body {
+  color: var(--foreground);
+  background: var(--bgColor);
+  font-family: var(--font-dm-sans);
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+  padding: 1.25rem;
+  background: var(--bgColor);
+  border-radius: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
